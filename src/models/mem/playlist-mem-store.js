@@ -2,7 +2,6 @@ import { v4 } from "uuid";
 
 let playlists = [];
 
-
 export const playlistMemStore = {
   async getAllPlaylists() {
     return playlists;
