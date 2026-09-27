@@ -25,6 +25,11 @@ export const playlistMemStore = {
     playlists.splice(index, 1);
   },
 
+  async getUserPlaylists(userid) {
+    return playlists.filter((playlist) => playlist.userid === userid);
+  },
+
+
   async deleteAllPlaylists() {
     playlists = [];
   },
