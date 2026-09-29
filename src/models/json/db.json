@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "firstName": "Shawn",
+      "lastName": "Cahill",
+      "email": "shawnjcahill@gmail.com",
+      "password": "GArMahJ7bZzunj6vbVgXckg6gVgKRPjk",
+      "_id": "cb7158e0-7e37-4e60-bbe5-47f4ebc35655"
+    }
+  ],
+  "playlists": [
+    {
+      "userid": "cb7158e0-7e37-4e60-bbe5-47f4ebc35655",
+      "title": "Favourites",
+      "_id": "bbd65ee6-289d-4248-bdde-0ee4245db86f"
+    }
+  ],
+  "tracks": [
+    {
+      "title": "Run",
+      "artist": "Aslan",
+      "duration": 2,
+      "_id": "4daf39ba-5f90-4668-9f2e-00b355f0f319",
+      "playlistid": "bbd65ee6-289d-4248-bdde-0ee4245db86f"
+    },
+    {
+      "title": "Away",
+      "artist": "Creed",
+      "duration": 4,
+      "_id": "4a8c9d37-2cb5-4a31-a083-cba013a92e64",
+      "playlistid": "bbd65ee6-289d-4248-bdde-0ee4245db86f"
+    }
+  ]
+}
