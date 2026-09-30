@@ -1,11 +1,25 @@
 {
   "users": [
     {
-      "firstName": "Shawn",
-      "lastName": "Cahill",
-      "email": "shawnjcahill@gmail.com",
-      "password": "GArMahJ7bZzunj6vbVgXckg6gVgKRPjk",
-      "_id": "cb7158e0-7e37-4e60-bbe5-47f4ebc35655"
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "_id": "accd9cc1-e1aa-43e5-86b3-8d8b2c1b79e2"
+    },
+    {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "_id": "b21de6a5-38ba-4e1f-af32-88b022c3c62b"
+    },
+    {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "_id": "f9d7e998-3941-4982-bd9a-7c2d1513b21e"
     }
   ],
   "playlists": [
