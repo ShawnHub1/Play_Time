@@ -5,28 +5,35 @@
       "lastName": "Simpson",
       "email": "homer@simpson.com",
       "password": "secret",
-      "_id": "accd9cc1-e1aa-43e5-86b3-8d8b2c1b79e2"
+      "_id": "80f23bb4-0539-414f-8dc3-80d97d773160"
     },
     {
       "firstName": "Marge",
       "lastName": "Simpson",
       "email": "marge@simpson.com",
       "password": "secret",
-      "_id": "b21de6a5-38ba-4e1f-af32-88b022c3c62b"
+      "_id": "c2710576-2c8a-4608-acd2-1fc80882c085"
     },
     {
       "firstName": "Bart",
       "lastName": "Simpson",
       "email": "bart@simpson.com",
       "password": "secret",
-      "_id": "f9d7e998-3941-4982-bd9a-7c2d1513b21e"
+      "_id": "4586d7ca-2e8a-4ec5-924e-6f7bfd0a1409"
     }
   ],
   "playlists": [
     {
-      "userid": "cb7158e0-7e37-4e60-bbe5-47f4ebc35655",
-      "title": "Favourites",
-      "_id": "bbd65ee6-289d-4248-bdde-0ee4245db86f"
+      "title": "Beethoven Sonatas",
+      "_id": "8eb5decf-6e8a-4616-9a1e-5b4d18733a21"
+    },
+    {
+      "title": "Beethoven Concertos",
+      "_id": "1bd5915d-3e23-4c49-a696-df8d028c39ab"
+    },
+    {
+      "title": "Beethoven Symphonies",
+      "_id": "9d497482-026d-4148-a33a-c1026f7d304d"
     }
   ],
   "tracks": [
