@@ -1,3 +1,6 @@
+export const serviceUrl = "http://localhost:3000";
+
+
 export const maggie = {
   firstName: "Maggie",
   lastName: "Simpson",
@@ -27,6 +30,16 @@ export const testUsers = [
 ];
 
 export const mozart = {
+  title: "Mozart Favourites"
+};
+
+export const concerto = {
+  "title": "Violin Concerto No. 3",
+  "artist": "Mozart",
+  "duration": 15
+};
+
+export const beethoven = {
   title: "Mozart Favourites"
 };
 
