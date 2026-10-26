@@ -1,55 +1,35 @@
 {
   "users": [
     {
-      "firstName": "Homer",
+      "firstName": "Maggie",
       "lastName": "Simpson",
-      "email": "homer@simpson.com",
+      "email": "maggie@simpson.com",
       "password": "secret",
-      "_id": "80f23bb4-0539-414f-8dc3-80d97d773160"
-    },
-    {
-      "firstName": "Marge",
-      "lastName": "Simpson",
-      "email": "marge@simpson.com",
-      "password": "secret",
-      "_id": "c2710576-2c8a-4608-acd2-1fc80882c085"
-    },
-    {
-      "firstName": "Bart",
-      "lastName": "Simpson",
-      "email": "bart@simpson.com",
-      "password": "secret",
-      "_id": "4586d7ca-2e8a-4ec5-924e-6f7bfd0a1409"
+      "_id": "652026e7-6fb3-417a-b249-bf8e4d4c79d1"
     }
   ],
-  "playlists": [
+  "playlists": [],
+  "tracks": [
     {
-      "title": "Beethoven Sonatas",
-      "_id": "8eb5decf-6e8a-4616-9a1e-5b4d18733a21"
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "duration": 4,
+      "_id": "54cbbce9-6ea3-4e9e-88cd-440bbde841d9",
+      "playlistid": "ce7d5b78-6051-4fc2-9e13-f740fac6dbe2"
     },
     {
-      "title": "Beethoven Concertos",
-      "_id": "1bd5915d-3e23-4c49-a696-df8d028c39ab"
+      "title": "Smooth Criminal",
+      "artist": "Michael Jackson",
+      "duration": 4,
+      "_id": "f70bfa21-78ab-4222-a132-9cadb8f0683a",
+      "playlistid": "ce7d5b78-6051-4fc2-9e13-f740fac6dbe2"
     },
     {
       "title": "Beethoven Symphonies",
-      "_id": "9d497482-026d-4148-a33a-c1026f7d304d"
-    }
-  ],
-  "tracks": [
-    {
-      "title": "Run",
-      "artist": "Aslan",
-      "duration": 2,
-      "_id": "4daf39ba-5f90-4668-9f2e-00b355f0f319",
-      "playlistid": "bbd65ee6-289d-4248-bdde-0ee4245db86f"
-    },
-    {
-      "title": "Away",
-      "artist": "Creed",
-      "duration": 4,
-      "_id": "4a8c9d37-2cb5-4a31-a083-cba013a92e64",
-      "playlistid": "bbd65ee6-289d-4248-bdde-0ee4245db86f"
+      "artist": "Beethoven",
+      "duration": 10,
+      "_id": "f6122fba-0de1-4564-8385-94bc3eb4b22e",
+      "playlistid": "ce7d5b78-6051-4fc2-9e13-f740fac6dbe2"
     }
   ]
 }

@@ -3,6 +3,7 @@ import { assert } from "chai";
 import { playtimeService } from "./playtime-service.js";
 import { assertSubset } from "../test-utils.js";
 import { maggie, mozart, testPlaylists } from "../fixtures.js";
+import { db } from "../../src/models/db.js";
 
 EventEmitter.setMaxListeners(25);
 
@@ -11,6 +12,7 @@ suite("Playlist API tests", () => {
   let user = null;
 
   setup(async () => {
+    db.init("json");
     await playtimeService.deleteAllPlaylists();
     await playtimeService.deleteAllUsers();
     user = await playtimeService.createUser(maggie);
